@@ -1,0 +1,30 @@
+# Uses python3
+# Change print statements for python2 implementation. No problems in the functions across versions.
+# Test inputs for Golomb Ruler -  G(L, M)
+
+# L = 0, M = 0
+print(BT(0,0))                 # Expected output: (-1, [])
+print(FC(0,0))                 # Expected output: (-1, [])
+print(CP(0,0))                 # Expected output: (-1, [])
+
+# L = 0, M = 1
+print(BT(0,0))                 # Expected output: (1, [0])
+print(FC(0,0))                 # Expected output: (1, [0])
+print(CP(0,0))                 # Expected output: (1, [0])
+
+# L = 10, M = 4
+print(BT(10,4))                 # Expected output: (6, [0, 1, 4, 6])
+print(FC(10,4))                 # Expected output: (6, [0, 1, 4, 6])
+print(CP(10,4))                 # Expected output: (6, [0, 1, 4, 6])
+
+# L = 30, M = 5
+print(BT(10,4))                 # Expected output: (11, [0, 1, 4, 9, 11])
+print(FC(10,4))                 # Expected output: (11, [0, 1, 4, 9, 11])
+print(CP(10,4))                 # Expected output: (11, [0, 1, 4, 9, 11])
+
+# L = 30, M = 7
+print(BT(10,4))                 # Expected output: (25, [0, 1, 4, 10, 18, 23, 25])
+print(FC(10,4))                 # Expected output: (25, [0, 1, 4, 10, 18, 23, 25])
+print(CP(10,4))                 # Expected output: (25, [0, 1, 4, 10, 18, 23, 25])
+
+
